@@ -1,0 +1,18 @@
+npx command - to excute any package.
+    
+"npx package_name Entry_filename" 
+
+npm  - to install any package .
+
+"npm install package_name"
+
+1 . Always use "npm install react" to use react. 
+
+
+
+// to run production build - "npx package_name build Entry_filename"
+// to run dev build - "npx package_name Entry_filename"
+
+
+**********************************************************************************************
+
