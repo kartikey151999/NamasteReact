@@ -1,0 +1,50 @@
+run react app - npm run start/ npm start
+
+JSX - It is not a  html inside Javascript 
+    " it means html-like/xml-like syntax"
+
+    jsx is not equal to react.
+
+// creating a element in react using jsx.
+
+const heading = <h1 id="heading1">
+                  Namaste React"
+                <h1>
+
+
+//this jsx code is not understand by javacsript  engine so it will first compiled to Javascript 
+understand code before it will execute which is done by babel automatically installed under parcel package.
+
+
+Attribute in jsx is written in camel case.
+Html "class" will become "className" in jsx.
+
+************************************************************
+React Component - 
+ 2 ways to create Component
+    1. Class Component - old 
+    2. Functional Component - new
+      (function that return jsx)
+
+ // Functional Component creating:
+name start with capital letter
+ 
+    const HeadingComponent = () =>{
+          return <h1>Namaste Functional Component</h1>
+     }
+
+
+render Functional Component  -
+root.render(<HeadingComponent />)    
+
+Component composition - Component inside another Component.
+
+
+***********************************************************
+add react element/ Javascript code inside jsx use {}.
+
+
+add  Functional Component inside jsx / Component inside other Component
+{Componentname()}
+<componentname />
+<componentname></componentname>

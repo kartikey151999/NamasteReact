@@ -1,0 +1,25 @@
+.head{
+ display: flexbox;
+ flex-wrap: wrap;
+ border: 1px solid black;
+ height: 100;
+}
+
+#logo{
+float: left;
+height: 100;
+}
+
+#search-bar{
+   height: 100;
+   width: 300;
+   position: absolute;
+   left: 40%;
+   right: 50%; 
+
+}
+
+#user-icon{
+  float: right;
+  height: 100;
+}
