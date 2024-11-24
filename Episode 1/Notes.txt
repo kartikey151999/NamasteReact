@@ -1,0 +1,31 @@
+React.createElement() -------> create an object for html tags 
+
+React.render() ------> convert the object to html element 
+
+
+package.json is a npm created project configuration file.
+npm is not stand for node package manager.it is bundle of packages which manage these packages
+
+create a project using npm:
+
+npm init 
+test command - jest
+
+
+A project can have 2 dependency 
+1. dev dependency  -  used for development phase  
+2. normal dependency  - production phase.
+
+
+// npm install -D dependency_name;   ----> dev dependency.
+
+npm install -D parcel;
+
+~(tilde) version  :  automatically do major dependency version update
+^(carret) version :  automatically do minor dependency version update
+
+transitive dependency : dependency inside the dependency 
+
+to ignore any file to push on git repo we use -> .gitignore file.
+
+always ignore "node_module" to push on git repo 
