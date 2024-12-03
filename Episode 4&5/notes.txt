@@ -1,0 +1,36 @@
+Always visualise the requirement before start coding.
+
+config Driven UI ->
+
+Whenever we are loop over the list object we have to pass Key attribute. -> Key={}
+
+Key is used to uniquely identify the object so that only specific item render.
+
+
+Always first choose "unique id" as a key then "index"
+if there is no "unique id" then we can use "index" as a key.
+
+
+
+why React is fast?
+it do efficient Dom Manipulation by using its own Algorithm(diffing) on virtual dom.
+
+virtual dom - is a javascript object representation of html tag.
+
+React hooks - Normal Js utility function .
+2 most important hooks:
+
+  1.useState() - use to create a local state variable .
+                const [variable_name] = useState([default data]).
+                useState() will return a state variable which will assign to an array.
+  2.useEffect()
+
+
+=> Whenever a State Variable Change/Update React re-render the component.
+
+
+"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/7/18/ee754584-dd05-4940-8c1e-23b5d240267c_778196.jpg"
+
+**********************************************************************************************
+Reconciliation Algorithm(React Fiber)
+***************************************************************************
