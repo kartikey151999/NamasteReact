@@ -2,13 +2,13 @@ import React from "react";
 
 class User1 extends React.Component{
   constructor(props){
+    
      super(props);
      this.state={ //always create state variable for class component inside the constructor.
          count : 0,
      }
     }  
-    
-
+ 
     render(){
         const {name,location,Contact} = this.props
         const {count} = this.state
