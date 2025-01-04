@@ -32,8 +32,10 @@
   background-color:rgba(226, 228, 217, 0.911);
   width: 200;
   margin: 5 4;
-  padding: 3 3
+  padding: 3 3; 
 }
+
+
 .shimmer{
   background-color:rgba(226, 228, 217, 0.911);
   width: 200;
@@ -52,6 +54,7 @@
 .res-card:hover{
     border: 2px solid rgb(220, 236, 130);
     cursor: pointer;
+
 }
 .search{
     margin: 7 0;
@@ -64,6 +67,9 @@
     margin: 10 0;
     cursor: pointer;
     margin-left: 7;
+}
+.btn{
+    text-decoration: none;
 }
 
 .res-image {
@@ -133,6 +139,7 @@
 } 
 .card{
     text-decoration: none;
+  
 }
 .offerLogo{
     height: 21;

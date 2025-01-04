@@ -1,43 +1,29 @@
-import React from "react";
+if no dependency array => useEffect is called on every render.
+if dependency array is empty = [] => useEffect is called on initiak render(just once)
 
-class component --->
+if dependency array name is change then also it will render for every update of dependency name 
 
-class Classname extends React.Component{
-constructor(props){
-    super(props);
-    this.state={} 
-create state variable for class component inside the constructor
+useEffect(()=>{
+ function_name()
+},[btname])
 
-    
-}
-
-       
-
-
-render(){
-    return(
-
-    )
-}
-
-}
+initial btname is login but when we click on btn it will change to logout so the useEffect will render .
 
 
 
+always create usestate inside the body of functional component
+
+A React hook starts with 'use' word.
+useRouteError hook give the route error when the path is invalid.
+
+******************************************************
+
+import -> createBrowserRouter and RouterProvider
+
+https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=28.406963&lng=77.8498292&restaurantId=608590&catalog_qa=undefined&submitAction=ENTER
 
 
-useEffect(()=>{},[]) = use to make api call for functional component once the react render the component in a dom. 
+
+data.cards[3].card.card.gridElements.infoWithStyle.offers
 
 
-***********************************************************************
-
-componentDidMount({}) = use to make api call for class component once the react render the component in a dom. 
-
-**********************************************************************
-this.state={} 
-create state variable for class component inside the constructor
-
-*********************************************************************
-
-this.setState({})
-setState method is use to update state variable for a class component .
